@@ -1444,8 +1444,6 @@ LEDs\n
 Text Notes 2250 3200 0    50   ~ 0
 Voltage\nDivider
 Wire Notes Line
-	450  450  450  1550
-Wire Notes Line
 	4000 1550 4000 450 
 Wire Notes Line
 	5850 1550 5850 450 
@@ -1472,8 +1470,6 @@ Input current\nsense resistor\n
 Wire Notes Line
 	6050 1550 6050 7150
 Wire Notes Line
-	6700 1550 6700 3300
-Wire Notes Line
 	7050 4100 7050 3300
 Wire Notes Line
 	7550 1550 7550 4100
@@ -1495,4 +1491,10 @@ Wire Notes Line
 	6050 6450 7300 6450
 Wire Notes Line
 	7300 4100 7300 6450
+Wire Notes Line
+	6700 450  6700 3300
+Wire Notes Line
+	450  450  6700 450 
+Wire Notes Line
+	450  450  450  7150
 $EndSCHEMATC

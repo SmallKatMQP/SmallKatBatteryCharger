@@ -1387,8 +1387,6 @@ Text GLabel 8550 4850 0    50   Input ~ 0
 ACP
 Text GLabel 9000 3750 1    50   Input ~ 0
 ADAPTER
-Text GLabel 6300 2350 1    50   Input ~ 0
-RAC
 Wire Wire Line
 	8550 5050 8100 5050
 Wire Wire Line
@@ -1421,11 +1419,7 @@ Text GLabel 4150 3950 0    50   Input ~ 0
 OUT
 Wire Wire Line
 	9300 2000 9300 2300
-Text GLabel 8450 1850 1    50   Input ~ 0
-RAC
-Text GLabel 6400 750  1    50   Input ~ 0
-RAC
-Text GLabel 6400 750  3    50   Input ~ 0
+Text GLabel 6300 2350 1    50   Input ~ 0
 ACN
 Text Notes 950  1500 0    50   ~ 0
 Power In\n
@@ -1497,4 +1491,6 @@ Wire Notes Line
 	450  450  6700 450 
 Wire Notes Line
 	450  450  450  7150
+Text GLabel 8450 1850 1    50   Input ~ 0
+ACN
 $EndSCHEMATC

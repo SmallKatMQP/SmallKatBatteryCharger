@@ -357,7 +357,7 @@ U 1 1 5C07597C
 P 8950 2450
 F 0 "C5" H 9065 2496 50  0000 L CNN
 F 1 "10uF" H 9065 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8988 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8988 2300 50  0001 C CNN
 F 3 "~" H 8950 2450 50  0001 C CNN
 	1    8950 2450
 	1    0    0    -1  
@@ -465,7 +465,7 @@ U 1 1 5C07C424
 P 6300 2500
 F 0 "C4" H 6415 2546 50  0000 L CNN
 F 1 "10uF" H 6415 2455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6338 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6338 2350 50  0001 C CNN
 F 3 "~" H 6300 2500 50  0001 C CNN
 	1    6300 2500
 	1    0    0    -1  
@@ -1387,8 +1387,6 @@ Text GLabel 8550 4850 0    50   Input ~ 0
 ACP
 Text GLabel 9000 3750 1    50   Input ~ 0
 ADAPTER
-Text GLabel 6300 2350 1    50   Input ~ 0
-RAC
 Wire Wire Line
 	8550 5050 8100 5050
 Wire Wire Line
@@ -1421,11 +1419,7 @@ Text GLabel 4150 3950 0    50   Input ~ 0
 OUT
 Wire Wire Line
 	9300 2000 9300 2300
-Text GLabel 8450 1850 1    50   Input ~ 0
-RAC
-Text GLabel 6400 750  1    50   Input ~ 0
-RAC
-Text GLabel 6400 750  3    50   Input ~ 0
+Text GLabel 6300 2350 1    50   Input ~ 0
 ACN
 Text Notes 950  1500 0    50   ~ 0
 Power In\n
@@ -1497,4 +1491,6 @@ Wire Notes Line
 	450  450  6700 450 
 Wire Notes Line
 	450  450  450  7150
+Text GLabel 8450 1850 1    50   Input ~ 0
+ACN
 $EndSCHEMATC
